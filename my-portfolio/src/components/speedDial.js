@@ -6,8 +6,6 @@ import ArticleIcon from '@mui/icons-material/Article';
 import AudiotrackIcon from '@mui/icons-material/Audiotrack';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ContactPageIcon from '@mui/icons-material/ContactPage';
-import { Box } from '@mui/system';
-// import { render } from 'react-dom';
 const actions = [
   { icon: <LinkedInIcon />, name: 'LinkedIn', src:'https://www.linkedin.com/in/nathan-delman-27a9a2139/' },
   { icon: <GitHubIcon />, name: 'Github' ,src:'https://github.com/Delmanat3' },
@@ -17,14 +15,10 @@ const actions = [
 
 export default function SpeedDialer() {
   const [open, setOpen] = React.useState(false);
-  // const [route,setRoute]=React.useState({})
 
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-  // const Url=(action)=>{
-  //   return action.src
-  // }
-
+ 
 
   return (
     <div>
@@ -48,17 +42,6 @@ export default function SpeedDialer() {
             }
 
           >
-          <Box
-          // ref={areaRef}
-          // onClick={handleMouseMove}
-          // sx={{
-          //   bgcolor: 'primary.main',
-          //   color: 'primary.contrastText',
-          //   p: 2,
-          // }}
-        >
-
-</Box>
 </SpeedDialAction>
   )
   )
