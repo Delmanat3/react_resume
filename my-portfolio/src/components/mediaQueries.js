@@ -1,10 +1,7 @@
 import * as React from 'react';
-import { createTheme, ThemeProvider, useTheme } from '@mui/material/styles';
-import useMediaQuery from '@mui/material/useMediaQuery';
 import SpeedDialer from './speedDial';
 import { useState } from 'react';
 import { useEffect } from 'react';
-// import SpeedDialer from './speedDial';
 import Portfolio from './portfolio';
 export default function MediaQuery(){
     const [isDesktop, setDesktop] = useState(window.innerWidth > 1450);

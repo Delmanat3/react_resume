@@ -35,7 +35,7 @@ export default function Cards() {
             16:9
             // pt: '56.25%',
           }}
-          image="./images/imgs/plannerpic.png"        alt="green iguana"
+          image="./images/imgs/plannerpic.avif"        alt="green iguana"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -58,7 +58,7 @@ export default function Cards() {
       <CardMedia
         component="img"
         height="140"
-        image="./images/imgs/projectOne.png"
+        image="./images/imgs/projectOne.avif"
         alt="green iguana"
       />
       <CardContent>
@@ -82,7 +82,7 @@ export default function Cards() {
       <CardMedia
         component="img"
         height="140"
-        image="./images/imgs/weatherpic.png"
+        image="./images/imgs/weatherpic.avif"
         alt="green iguana"
       />
       <CardContent>
@@ -106,7 +106,7 @@ export default function Cards() {
       <CardMedia
         component="img"
         height="140"
-        image="./images/imgs/mainpage.png"
+        image="./images/imgs/h2.avif"
         alt="green iguana"
       />
       <CardContent>
@@ -133,8 +133,8 @@ export default function Cards() {
       <CardMedia
         component="img"
         height="140"
-        image="./images/imgs/mainpage.png"
-        alt="green iguana"
+        image="#"
+        alt="Coming Soon"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -159,7 +159,7 @@ export default function Cards() {
       <CardMedia
         component="img"
         height="140"
-        image="./images/imgs/screencapture-localhost-3000-2021-11-23-21_02_50.png"
+        image="./images/imgs/h1.avif"
         alt="green iguana"
       />
       <CardContent>
