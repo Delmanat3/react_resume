@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { SpeedDial } from '@mui/material';
 import { SpeedDialAction} from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -7,7 +7,7 @@ import AudiotrackIcon from '@mui/icons-material/Audiotrack';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ContactPageIcon from '@mui/icons-material/ContactPage';
 import { Box } from '@mui/system';
-import { render } from 'react-dom';
+// import { render } from 'react-dom';
 const actions = [
   { icon: <LinkedInIcon />, name: 'LinkedIn', src:'https://www.linkedin.com/in/nathan-delman-27a9a2139/' },
   { icon: <GitHubIcon />, name: 'Github' ,src:'https://github.com/Delmanat3' },
@@ -17,7 +17,7 @@ const actions = [
 
 export default function SpeedDialer() {
   const [open, setOpen] = React.useState(false);
-  const [route,setRoute]=React.useState({})
+  // const [route,setRoute]=React.useState({})
 
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
