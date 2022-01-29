@@ -44,8 +44,8 @@ export default function Hero(){
       </Typography>
       <Divider/>
       <Typography variant="p2" align="center" paragraph>
-      Hi, I'm a Full-Stack web developer. Well really I'm just a kid that's been coding since he was twelve, who decided to attend a bootcamp mid-covid.
-      What can I say... I love to build things, I love to fix things and I love to learn. 
+      Hi, I'm a Full-Stack web developer. Well really I'm just a guy that's been coding since he was twelve, who decided to attend a bootcamp mid-covid.
+      love to build things, I love to fix things and I love to learn. The rest is better shown than spoken. 
       </Typography>
      
       <Typography
