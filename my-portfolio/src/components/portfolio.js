@@ -28,7 +28,6 @@ export default function Portfolio() {
       <button className="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false"><a className="nav-link" aria-current="page" href= "https://www.spotify.com/us/" target="_blank" rel="noopener noreferrer"><AudiotrackIcon/></a></button>
     </li>
   </ul>
-
    </div>
  
   );

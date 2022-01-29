@@ -38,7 +38,6 @@ export default function SpeedDialer() {
             tooltipTitle={action.name}
             onClick={
               function x(){document.location=action.src}
-              
             }
 
           >

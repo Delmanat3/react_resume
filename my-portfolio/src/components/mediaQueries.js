@@ -20,7 +20,6 @@ export default function MediaQuery(){
         {isDesktop ? (
            <SpeedDialer/>
         ) : (
-        
           <Portfolio/>
         )}
       </div>
